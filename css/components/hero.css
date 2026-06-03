@@ -44,32 +44,3 @@
     flex-wrap: wrap;
     margin-top: 1rem;
 }
-.btn{
-    font-size: 1rem;
-    min-width: 165px;
-    height: 48px;
-    border-radius: 999px;
-    color: #ffffff;
-    font-weight: 500;
-    padding: 0 24px;
-    transition: background-color 0.3s, border 0.3s, color 0.3s;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    white-space: nowrap;
-    flex-shrink: 0;
-}
-.btn-outline{
-    border: 2px solid #ffffff;
-    background-color: transparent;
-}
-.btn-filled{
-    background-color: #ffffff;
-    color: #6329a2;
-}
-.btn-outline:hover{
-    background-color: rgba(255,255,255,0.12);
-}
-.btn-filled:hover{
-    background-color: #f3f0ff;
-}
