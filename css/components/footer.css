@@ -1,0 +1,119 @@
+.site-footer{
+    background-color: #333333;
+    color: #ffffff;
+    
+
+   
+}
+
+.footer-wrapper{
+    max-width: 85rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+}
+.footer-panel{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem 0;
+    align-items: flex-start;
+}
+.footer-links-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 0;
+}
+.footer-links-grid h2{
+    color: #EDEDED;
+    font-size: 1.25rem;
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+.footer-links-grid li a{
+    color: #ffffff;
+}
+.footer-links-grid li a:hover{
+    text-decoration: underline;
+}
+
+.footer-newsletter{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    max-width: 22.5rem;
+    width: 100%;
+}
+.newsletter-form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+}
+.newsletter-form label{
+    margin: 0;
+    font-size: 1rem;
+    color: #ffffff;
+}
+.newsletter-form input{
+    border-radius: 1.875rem;
+    color: #222222;
+    padding: 0.75rem 1.25rem;
+    width: 100%;
+    max-width: 100%;
+    background: #ffffff;
+    border: none;
+}
+.footer-social p{
+    margin-bottom: 1rem;
+}
+
+.footer-social-icons ul{
+    display: flex;
+    gap: 1rem;
+}
+.footer-social-icons li{
+    list-style: none;
+}
+.footer-social-icons li a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+}
+.footer-social-icons li a img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+.footer-social-icons li a:hover img{
+    opacity: 0.8;
+}
+.footer-bottom{
+    text-align: center;
+    padding: 1.25rem 0;
+    font-size: 1.25rem;
+}
+@media (max-width: 1000px){
+    .footer-wrapper{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+    .footer-nav ul {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footer-social ul{
+        gap: 1rem;
+    }
+    .footer-links-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
